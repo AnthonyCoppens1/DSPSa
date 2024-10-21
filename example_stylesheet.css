@@ -32,17 +32,26 @@ div.ex1{
     background-color: brown;
 }
 
-a:link, a:visited { 
-    background-color: aqua;
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0%;
+    margin: 0px;
+    overflow:hidden;
+}
+
+.navbar a{
     color:white;
-    text-align:center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
 
-
-a:hover{
-    color:greenyellow;
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
 }
 
-a:active{
-    color:blue;
+.navbar li{
+    float: left;
 }
